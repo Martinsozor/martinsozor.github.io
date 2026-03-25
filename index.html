@@ -284,15 +284,55 @@ footer span { color: #E8580A; }
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
-  .about-grid { grid-template-columns: 1fr; gap: 2rem; }
-  .services-grid { grid-template-columns: 1fr 1fr; }
-  .testimonials-grid { grid-template-columns: 1fr; }
-  .exp-item { grid-template-columns: 1fr; gap: 0.3rem; }
+  nav { padding: 0.9rem 5%; }
   .nav-links { display: none; }
+
+  .hero { padding: 4rem 5% 3rem; }
+  .hero h1 { font-size: 2rem; }
+  .hero-sub { font-size: 0.92rem; }
+  .hero-stats { gap: 1.5rem; margin-top: 2rem; padding-top: 1.5rem; }
+  .stat-num { font-size: 1.4rem; }
+
+  section { padding: 3.5rem 5%; }
+
+  .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .about-card { padding: 1.8rem; }
+  .about-card-quote { font-size: 0.95rem; }
+
+  .exp-item { grid-template-columns: 1fr; gap: 0.3rem; }
+  .exp-date { font-size: 0.74rem; }
+
+  .services-grid { grid-template-columns: 1fr; gap: 1rem; }
+  .service-card { padding: 1.4rem; }
+
+  .testimonials-grid { grid-template-columns: 1fr; }
+  .tcard-metrics { gap: 1rem; }
+
+  .tools-grid { gap: 0.4rem; }
+
+  .certs-grid { gap: 0.6rem; }
+
+  .contact-sub { font-size: 0.85rem; }
+  .contact-email { font-size: 0.9rem; }
+  .contact-row { flex-direction: column; gap: 0.6rem; }
+  .social-link { text-align: center; }
+
+  footer { flex-direction: column; text-align: center; gap: 0.4rem; }
+
+  .section-title { font-size: 1.5rem; }
+  .tag-list { gap: 0.4rem; }
+  .tag { font-size: 0.72rem; }
 }
+
 @media (max-width: 480px) {
+  .hero h1 { font-size: 1.7rem; }
+  .hero-stats { flex-wrap: wrap; gap: 1.2rem; }
+  .stat-num { font-size: 1.3rem; }
+  .btn-white { width: 100%; text-align: center; padding: 0.8rem; }
   .services-grid { grid-template-columns: 1fr; }
-  .hero-stats { gap: 1.5rem; }
+  .exp-skills { gap: 0.3rem; }
+  .exp-skill { font-size: 0.68rem; }
+  .section-title { font-size: 1.3rem; }
 }
 </style>
 </head>
